@@ -16,5 +16,5 @@ word = start + finish
 #print (ord('М'))
 #print (ord('м'))
 # \t - Табуляция
-# \x - 16 
+# \x - 16-ричный код символа
 print('\x6d\x61\x6d\x61 \x6d\x79\x6c\x61 \x72\x61\x6d\x75')
