@@ -11,3 +11,4 @@ print("Еще раз ваш список")
 for add_color in raduga: # перебираем элементы списка
     print(raduga.index(add_color), " - ", add_color)
 
+# for add_color in range(len(raduga)
