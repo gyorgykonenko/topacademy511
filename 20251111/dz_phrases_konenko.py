@@ -15,7 +15,9 @@ chislo = int(chislo)
 # далее компьютер выводит построчно фразы из списка phrases,
 for add_phrases in phrases:  # перебираем элементы списка
     if len(add_phrases) >= chislo:
+        filtered_phrases.append(add_phrases)
         print(add_phrases)
+        print(filtered_phrases)
 # но только те, чья длина больше, либо равна N.
 #    print(phrases.index(add_phrases), " - ", add_phrases)
 
